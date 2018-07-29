@@ -12,3 +12,7 @@ def assign_rooms (names)
 end
 
 def conference_badges ()
+end
+
+def printer (doc)
+end
