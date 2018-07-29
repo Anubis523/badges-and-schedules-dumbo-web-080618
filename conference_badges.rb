@@ -11,6 +11,7 @@ def assign_rooms (names)
   # arr = []
   # names.each_with_index{|name, index| arr.push("Hello, #{name}! You'll be assigned to room #{index+1}!")}
   # arr
+  names.map!{|name, index|"Hello, #{name}! You'll be assigned to room #{index+1}!"}
 end
 
 
