@@ -10,3 +10,5 @@ end
 def assign_rooms (names)
   names.each_with_index{|name, index| "Hello #{name}! You'll be assigned to room #{index+1}!"}
 end
+
+def conference_badges ()
