@@ -12,6 +12,6 @@ def assign_rooms (names)
 end
 
 def printer (names)
-  batch_badge_creator(names)
+  batch_badge_creator(names).each{}
   puts assign_rooms(names)
 end
